@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, render_template, request
-
+# I forked the resource that the professor had. 
 app = Flask(__name__)
 
 count = 0
@@ -23,3 +23,5 @@ def flip_case():
 
 if __name__ == '__main__':
     app.run(debug=True) 
+
+
